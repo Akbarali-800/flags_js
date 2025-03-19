@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inp2 {
+    width: 170px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top: 40px;
+    background: none;
+}
+
+.btn {
+    width: 170px;
+    height: 40px;
+    border: 1px solid grey;
+    background: none;
+    border-radius: 20px;
+}
+
+.dark-mode .btn {
+    color: white;
+    border: 1px solid red;
+}
+
+.dark-mode .inp2 {
+    color: white;
+    border: 1px solid red;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dark-mode {
+    background: #333;
+    color: white;
+}
+
+.flag_div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.country-card {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.country-card img {
+    width: 100%;
+    height: auto;
+}
